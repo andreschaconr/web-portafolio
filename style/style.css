@@ -228,4 +228,11 @@ line-height: 1em;
   .text{
     left: 0%;
   }
+  .menu{
+    width: 250px;
+  }
+  .showcase.active
+{
+  right: 250px;
+}
 }
