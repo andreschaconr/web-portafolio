@@ -303,6 +303,7 @@ line-height: 1em;
 }
 .photome{
   height: auto;
+  padding-block-end: 2em;
 }
 .textme{
   font-size: 1em;
