@@ -242,6 +242,10 @@ line-height: 1em;
 .photo{
   width: 20em;
   height: 20em;
+} 
+.photome :hover{
+ 
+  transform: scale(1.2) ;
 }
 .textme{
   font-size: 2em;
