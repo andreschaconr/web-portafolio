@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Metrophobic', sans-serif;
+  
+}
+body{
+  background-color: #3a3a3a;
 }
 header
 {
@@ -22,7 +26,7 @@ header .logo
   position: relative;
   width: 60px;
   height: 60px;
-  cursor: pointer;
+  
   background: url(/image/logoach.svg);
   background-repeat: no-repeat;
   background-size: 40px;
@@ -50,7 +54,7 @@ header .logo
 }
 .showcase
 {
-  position: absolute;
+  position: relative;
   right: 0;
   width: 100%;
   min-height: 100vh;
@@ -76,9 +80,9 @@ header .logo
   height: 100%;
   object-fit: cover;
   opacity: 1;
-  filter: grayscale(100%);
+  filter: grayscale(100%); /*filter gray*/
 }
-.overlay
+.overlay /*second filter*/
 {
   position: absolute;
   top: 0;
@@ -93,6 +97,7 @@ header .logo
   position: relative;
   z-index: 10;
   left: 15%;
+  cursor:default;
 }
 
 .text h2
@@ -103,7 +108,7 @@ header .logo
   line-height: 1em;
   
 }
-.text h1{
+.text h1{ /*i'am color*/
 font-size: 6em;
 font-weight: 900;
 color: #fff;
@@ -168,12 +173,12 @@ line-height: 1em;
   display: inline-block;
   margin-right: 20px;
   filter: invert(1);
-  transform: scale(0.5);
+  transform: scale(0.7);
   transition: 0.5s;
 }
 .social li a:hover
 {
-  transform: scale(0.5) translateY(-15px);
+  transform: scale(0.7) translateY(-15px);
 }
 .menu
 {
@@ -205,9 +210,54 @@ line-height: 1em;
 {
   color: #53BCB7; 
 }
+/*second section about me-------------------------*/
+.about{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 50px 50px 50px 50px;
+  min-height: 100vh;
+  background-color: #252525;
+  margin: auto;
+  display: grid;
+}
+.aboutme{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  color: #fff;
+  background-color: #252525;
+  padding: auto;
+  max-height: auto;
+  padding: 50px 50px 50px 50px;
+}
+.photome{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #252525;
+  width: auto;
+  height: 100%;
+}
+.photo{
+  width: 20em;
+  height: 20em;
+}
+.textme{
+  font-size: 2em;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  cursor: default;
+  
+}
+
 
 @media (max-width: 991px)
 {
+
   .showcase,
   .showcase header
   {
@@ -235,4 +285,27 @@ line-height: 1em;
 {
   right: 250px;
 }
+.about{
+  margin: 0;
+  padding: 0;
+}
+
+.aboutme{
+  width: 100%;
+  padding: auto;
+  margin: 0;
+  grid-template: none;
+}
+.photo{
+  width: 15em;
+  height: 15em;
+  
+}
+.photome{
+  height: auto;
+}
+.textme{
+  font-size: 1em;
+}
+
 }
