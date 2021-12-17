@@ -342,7 +342,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  background: #f1f1f1;
+  background: #dddd;
   margin-bottom: 2rem;
 }
 
@@ -456,7 +456,7 @@ img {
 
 .card:hover .tags .tag {
   background: var(--color);
-  color: white;
+  color: #252525;
 }
 
 .card .date {
@@ -483,13 +483,13 @@ img {
 }
 
 .card:before {
-  background: #BDC3C7;
+  background: #252525;
   width: 250%;
   height: 250%;
 }
 
 .card:after {
-  background: white;
+  background: #252525;
   width: 200%;
   height: 200%;
 }
