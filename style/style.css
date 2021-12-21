@@ -166,7 +166,7 @@ line-height: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #252525;
+  background-color: #222222;
 }
 .menu ul
 {
@@ -221,6 +221,9 @@ line-height: 1em;
 .photo{
   width: 20em;
   height: 20em;
+ 
+  border-radius: 100%;
+  border: 5px solid #53BCB7 ;
 } 
 
 
@@ -351,7 +354,8 @@ img {
 .btn:hover {
   opacity: 0.8;
   color: #53BCB7;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
+  
 }
 
 @media(max-width:600px) {
@@ -509,7 +513,7 @@ img {
 	text-align: center;
 	height: 30%;
 	margin-top: 0px;
-  font-size: 1em;
+  
 }
 .footer{
 	
@@ -560,6 +564,20 @@ img {
 {
   transform: scale(0.7) translateY(-15px);
 }
+ .templatemo_contacttitle{
+   color: #53bcb7;
+   font-size: 1.5em;
+
+ }
+ .form {
+   display: grid;
+   grid-template-rows: auto;
+   
+ }
+
+
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1285px) {
   .cards-wrapper {

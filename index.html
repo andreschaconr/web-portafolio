@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,25 +30,21 @@
             <h1>I'm <span id="typed"></span></h1>
           </div>
       
-        <!--<ul class="social">
-          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-        </ul>-->
+       
       </section>
       <div class="menu">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#main-footer">Contact</a></li>
         </ul>
       </div>
       
       <section class ="about" id="about">
         <div class=" aboutme">
           <div class="photome" data-aos="zoom-in-up">
-            <img class="photo" src="/image/logoach.svg" alt="50">
+            <img class="photo" src="/image/me.jpeg" alt="50">
           </div> 
           <div class="textme">
               <h2>I'm Andrés Chacón, a human passionate by learning new stuffs, help others and I'm like  the Front end Development, cool visual stuffs, and soon  blockchain. One of my biggest purpose in life is  helping people in the things I'm good, that's why I keep continue learning everyday to be a better professional and person.</h2>
@@ -102,7 +99,7 @@
 
 
       <!--------------------------------------------------------------------------------------------------------------------------------------------------->
-      <main class="container">
+      <main class="container" id="work">
         <section class="cardproyect" data-aos="fade-up">
           <img src="image/b-bad.png" alt="" />
           <div>
@@ -147,11 +144,31 @@
     AOS.init();
   </script>
        <footer id="main-footer">
-        
+        <div class="row">
+          <div id="templatemo_contact" class="col-md-4 gallery-contact">
+       </div>
+          <div class="contactform">
+          <div class="templatemo_contacttitle">CONTACT</div>
+           <div class="templatemo_sub_contacttitle"></div>
+              
+       <div class="form">
+          <form action="send.php" method="post">
+                               <input type="text" name="name" id="name" class="name" placeholder="Name">
+                               <input type="text" name="mail" id="mail" class="email" placeholder="@email">
+                               <input type="text" name="phone" id="subject" class="subject" placeholder="phone">
+                               <textarea name="message" class="message" placeholder="Message ... " id="message"></textarea>
+                              </div>
+                               <div class="clear"></div>
+                                   <div class="col-md-8"> 
+                                       <button type="submit" class="btn btn-primary">SEND </button>
+           </div>
+           </form>
+           </div>
         
         <div class="footer-text">
              <p>© 2021 design and development by Andrés Chacón.<br>
               </p>
+        </div>
         
         
         
