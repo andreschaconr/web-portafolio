@@ -21,3 +21,11 @@ AOS.init({
   delay: 0, // values from 0 to 3000, with step 50ms
   duration: 2000 // values from 0 to 3000, with step 50ms
 });
+
+
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  e.target.elements.name.value = '';
+  e.target.elements.email.value = '';
+  e.target.elements.message.value = '';
+});
