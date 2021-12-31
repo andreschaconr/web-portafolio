@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<body>
+
 <?php
 $name = $_POST['name'];
 $mail = $_POST['mail'];
-$phone = $_POST['phone'];
+
 $message = $_POST['message'];
 
 $header = 'From: ' . $mail . " \r\n";
@@ -19,11 +17,9 @@ $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
 $para = "andreschacon635@gmail.com";
-$asunto = 'Mensaje de... (Escribe como quieres que se vea el remitente de tu correo)';
+$asunto = 'Mensaje de... ';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
 header("Location:index.html");
 ?>
-</body>
-</html>

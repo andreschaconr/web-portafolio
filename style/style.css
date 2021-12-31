@@ -509,73 +509,7 @@ img {
   font-weight: normal;
 }
 
-/*#main-footer { /*foooterrr*/ /*
-	background: #080808;
-	color: white;
-	text-align: center;
-	height: 30%;
-	margin-top: 0px;
-  
-}
-.footer{
-	
-	display: flex;
-    flex-wrap: wrap;
-}
-.footer>* {
-    margin: 0 10px;
-    flex: 1 1 200px;
-}
-.footer-text{
-	padding-top: 50px;
-	
-}
-.social{
-	padding: 30px;
-	display: grid;
-	
 
-}
-.social-net{
-	text-align: center;
-	display: grid;
-	grid-auto-flow: column;
-}
-.social
-{
- 
-  z-index: 10;
-  bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.social li
-{
-  list-style: none;
-}
-.social li a
-{
-  display: inline-block;
-  margin-right: 20px;
-  
-  transform: scale(0.7);
-  transition: 0.5s;
-}
-.social li a:hover
-{
-  transform: scale(0.7) translateY(-15px);
-}
- .templatemo_contacttitle{
-   color: #53bcb7;
-   font-size: 1.5em;
-
- }
- .form {
-   display: grid;
-   grid-template-rows: auto;
-   
- }*/
 #main-footer { /*foooterrr*/ 
 	background: #080808;
 	color: white;
@@ -593,7 +527,7 @@ img {
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-  font: 300 60px 'Oswald', sans-serif;
+  font: 300 60px ;
   color: #53bcb7;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -716,7 +650,7 @@ textarea {
   margin: 10px 3px;
   line-height: 60px;
   border-radius: 50%;
-  color: #fff;
+
   background-color: rgb(27,27,27);
   cursor: pointer; 
   transition: all .2s ease-in-out;
@@ -748,6 +682,7 @@ textarea {
 
 .social-media-list li:hover a {
   color: #000;
+  transform: scale(0.7) translateY(-15px);
 }
 
 .copyright {
