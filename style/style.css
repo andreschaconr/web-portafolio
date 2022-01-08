@@ -547,7 +547,7 @@ img {
 .form-horizontal {
   /*float: left;*/
   max-width: 400px;
-  font-family: 'Lato';
+ 
   font-weight: 400;
 }
 
@@ -557,25 +557,24 @@ textarea {
   background-color: #000;
   color: #fff;
   letter-spacing: 1px;
+  width: 300px;
 }
 
 .send-button {
-  margin-top: 15px;
-  height: 34px;
-  width: 400px;
+  text-align: center;
+  width: 200px;
   overflow: hidden;
   transition: all .2s ease-in-out;
 }
 
 .alt-send-button {
-  width: 400px;
+  width: 200px;
   height: 34px;
   transition: all .2s ease-in-out;
 }
 
 .send-text {
   display: block;
-  margin-top: 10px;
   font: 700 12px ;
   letter-spacing: 2px;
 }
@@ -598,12 +597,12 @@ textarea {
 
 .list-item {
   line-height: 4;
-  color: #aaa;
+  color: #53bcb7;
 }
 
 .contact-text {
   font: 300 18px ;
-  letter-spacing: 1.9px;
+  letter-spacing: 1px;
   color: #bbb;
 }
 
@@ -626,7 +625,7 @@ textarea {
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: #53bcb7;
   text-decoration: none;
 }
 
@@ -651,7 +650,7 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
 
-  background-color: rgb(27,27,27);
+ 
   cursor: pointer; 
   transition: all .2s ease-in-out;
 }
@@ -686,7 +685,7 @@ textarea {
 }
 
 .copyright {
-  font: 200 14px 'Oswald', sans-serif;
+  font: 200 14px;
   color: #555;
   letter-spacing: 1px;
   text-align: center;
