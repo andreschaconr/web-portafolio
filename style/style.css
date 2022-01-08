@@ -598,24 +598,32 @@ textarea {
 .list-item {
   line-height: 4;
   color: #53bcb7;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 .contact-text {
   font: 300 18px ;
   letter-spacing: 1px;
   color: #bbb;
+  
+}
+.mail{
+  width: auto;
+  margin-left: 2em ;
 }
 
 .place {
-  margin-left: 62px;
+  margin-left: 10px;
 }
 
 .phone {
-  margin-left: 56px;
+  margin-left: 10px;
 }
 
 .gmail {
-  margin-left: 53px;
+  margin-left: 10px;
 }
 
 .contact-text a {
