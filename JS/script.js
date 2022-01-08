@@ -23,7 +23,7 @@ AOS.init({
 });
 
 
-document.querySelector('#contact-form').addEventListener('submit', (e) => {
+document.querySelector('#contact-form').addEventListener('submit', (e) => { //value elements to form
   e.preventDefault();
   e.target.elements.name.value = '';
   e.target.elements.email.value = '';
