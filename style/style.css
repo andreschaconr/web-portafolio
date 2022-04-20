@@ -22,6 +22,7 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 header .logo 
 {
@@ -45,6 +46,7 @@ header .logo
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+  
 }
 .toggle.active
 {
@@ -83,6 +85,7 @@ header .logo
   object-fit: cover;
   opacity: 1;
   filter: grayscale(100%); /*filter gray*/
+  box-shadow: 0 0 5em -1em #7c7979;
 }
 .overlay /*second filter*/
 {
@@ -219,13 +222,17 @@ line-height: 1em;
   background-color: #252525;
   width: auto;
   height: 100%;
+  
+  
 }
 .photo{
   width: 20em;
   height: 20em;
- 
   border-radius: 100%;
-  border: 5px solid #53BCB7 ;
+  box-shadow: 0 0 5em -1em #7c7979;
+  border:solid 4px #53BCB7;
+  
+  
 } 
 
 
@@ -403,7 +410,7 @@ img {
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 6px solid #53BCB7 ;
+  border: 5px solid #53BCB7 ;
   text-decoration: none;
 }
 
